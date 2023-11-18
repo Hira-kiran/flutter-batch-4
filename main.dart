@@ -4,15 +4,12 @@ void main() {
   print("Hello world");
   print("FLUTTER");
   print("DART");
-
   print('hira kiran');
   print('hira kiran');
   print('hira kiran');
   print('hira kiran');
   print('hira kiran');
 }
-
-
 
 /*
 Lecture # 1:
@@ -22,5 +19,6 @@ Lecture # 1:
 •	Install Extensions
 •	Make first program “hello world”?
 •	How to write comments?
+
 Assignment
 1)	Write a program to print all your family members’ name.*/
