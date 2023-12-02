@@ -28,7 +28,6 @@ void main() {
   y = 467.47;
   y = false;
   print(y);
-
   // •	Relational operators
 
   // >, <, >=, <=, ==, !=

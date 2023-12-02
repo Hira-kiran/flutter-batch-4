@@ -6,9 +6,6 @@ void main() {
   print("DART");
   print('hira kiran');
   print('hira kiran');
-  print('hira kiran');
-  print('hira kiran');
-  print('hira kiran');
 }
 
 /*
@@ -21,4 +18,4 @@ Lecture # 1:
 •	How to write comments?
 
 Assignment
-1)	Write a program to print all your family members’ name.*/
+1)	Write a program to print all your family member's name.*/
