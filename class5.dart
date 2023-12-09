@@ -1,13 +1,11 @@
 void main() {
 // •	If statement
-
   int n = 10;
-
   if (n == 10) {
     print("n is equal to 10");
   }
-// •	If-else statement
 
+// •	If-else statement
   if (n == 10) {
     print("n is equal to 10");
   } else {
@@ -46,9 +44,6 @@ void main() {
       print("failed");
   }
 }
-
-
-
 // Lecture # 5:
 
 // Conditional Statements

@@ -20,12 +20,12 @@ void main() {
   }
 }
 
-
 // Lecture # 6:                  Loops
 
 // •	While loop
 // •	Do while loop
 // •	For loop
+
 // Assignment
 // 1)	Write a program that displays counting from 1 to 10 using while loop.
 // 2)	Write a program that displays first five numbers with their square using while loop.
