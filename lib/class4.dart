@@ -7,6 +7,7 @@ class Class4 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: true,
         title: const Text("class 4"),
         backgroundColor: Colors.green,
       ),
