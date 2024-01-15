@@ -1,9 +1,11 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:flutter_batch4/class3.dart';
 import 'package:flutter_batch4/class4.dart';
 
-class Class5 extends StatelessWidget {
-  const Class5({super.key});
+class Class5And6 extends StatelessWidget {
+  const Class5And6({super.key});
 
   @override
   Widget build(BuildContext context) {

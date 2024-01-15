@@ -7,71 +7,74 @@ class Class3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Login Screen")),
-      body: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.only(
-              left: 30,
-              right: 30,
-              top: 30,
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.only(
+                left: 30,
+                right: 30,
+                top: 30,
+              ),
+              child: TextFormField(
+                decoration: const InputDecoration(
+                    prefixIcon: Icon(Icons.email),
+                    hintText: "Please enter Email",
+                    border: OutlineInputBorder()),
+              ),
             ),
-            child: TextFormField(
-              decoration: const InputDecoration(
-                  prefixIcon: Icon(Icons.email),
-                  hintText: "Please enter Email",
-                  border: OutlineInputBorder()),
+            Padding(
+              padding: const EdgeInsets.only(
+                left: 30,
+                right: 30,
+                top: 10,
+              ),
+              child: TextFormField(
+                obscureText: true,
+                decoration: const InputDecoration(
+                    prefixIcon: Icon(Icons.lock),
+                    suffixIcon: Icon(Icons.visibility),
+                    hintText: "Please enter password",
+                    border: OutlineInputBorder()),
+              ),
             ),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(
-              left: 30,
-              right: 30,
-              top: 10,
+            Padding(
+              padding: const EdgeInsets.only(
+                left: 30,
+                right: 30,
+                top: 10,
+              ),
+              child: TextFormField(
+                decoration: const InputDecoration(
+                    hintText: "Username", border: OutlineInputBorder()),
+              ),
             ),
-            child: TextFormField(
-              obscureText: true,
-              decoration: const InputDecoration(
-                  prefixIcon: Icon(Icons.lock),
-                  suffixIcon: Icon(Icons.visibility),
-                  hintText: "Please enter password",
-                  border: OutlineInputBorder()),
+            Padding(
+              padding: const EdgeInsets.only(
+                left: 30,
+                right: 30,
+                top: 10,
+              ),
+              child: TextFormField(
+                decoration: const InputDecoration(
+                    hintText: "Please enter phone",
+                    border: OutlineInputBorder()),
+              ),
             ),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(
-              left: 30,
-              right: 30,
-              top: 10,
+            const SizedBox(
+              height: 20,
             ),
-            child: TextFormField(
-              decoration: const InputDecoration(
-                  hintText: "Username", border: OutlineInputBorder()),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(
-              left: 30,
-              right: 30,
-              top: 10,
-            ),
-            child: TextFormField(
-              decoration: const InputDecoration(
-                  hintText: "Please enter phone", border: OutlineInputBorder()),
-            ),
-          ),
-          const SizedBox(
-            height: 20,
-          ),
-          Container(
-            height: 50,
-            width: 300,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(5),
-              color: Colors.amber,
-            ),
-            child: const Center(child: Text("Signup")),
-          )
-        ],
+            Container(
+              height: 50,
+              width: 300,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(5),
+                color: Colors.amber,
+              ),
+              child: const Center(child: Text("Signup")),
+            )
+          ],
+        ),
       ),
     );
   }
