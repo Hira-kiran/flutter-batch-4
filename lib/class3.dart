@@ -64,14 +64,17 @@ class Class3 extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-            Container(
-              height: 50,
-              width: 300,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(5),
-                color: Colors.amber,
+            Card(
+              elevation: 30,
+              child: Container(
+                height: 50,
+                width: 300,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(5),
+                  color: Colors.amber,
+                ),
+                child: const Center(child: Text("Signup")),
               ),
-              child: const Center(child: Text("Signup")),
             )
           ],
         ),
